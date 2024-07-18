@@ -1,0 +1,34 @@
+Menambahkan dataset : 
+1. library yang dibutuhkan adalah "cv2, os, time, uuid"
+2. buka file bernama collectingImg.py
+3. bahasa isyarat yang akan dideteksi adalah hello, thanks, yes, no dan iloveyou
+4. masing-masing kata akan diambil 20 foto dengan masing-masing fotonya berjarak 1 detik
+5. setiap pergantian kata akan dijeda 5 detik
+
+
+Inisialiasi untuk training data :
+1. libary yang dibutuhkan adalah "tensorflow, protobuf, gitpython, os, object_detection"
+	untuk proses installasi tensorflow, protobuf dan object_detection, lebih baik install
+	mengikuti instruksi dari web ini : 
+	https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/install.html
+	dari bagian "TensorFlow Object Detection API Installation" 
+	hingga bagian "Install the Object Detection API"
+2. buka file bernama Pre-training.py
+
+Memulai training data :
+1. buka folder/directory folder Tensorflow disimpan
+2. buka terminal windows pada folder/directory tersebut
+3. copy dan pastekan kode dibawah ke terminal yang telah dibuka
+
+python Tensorflow/models/research/object_detection/model_main_tf2.py --model_dir=Tensorflow/workspace/models/my_ssd_mobnet --pipeline_config_path=Tensorflow/workspace/models/my_ssd_mobnet/pipeline.config --num_train_steps=10000
+
+(durasi training model bergantung pada spesifikasi komputer dan "num_train_steps" pada syntax diatas,
+semakin tinggi nilainya, semakin akurat pendeteksiannya tetapi training akan semakin lama)
+
+Mendeteksi bahasa isyarat :
+1. library yang dibutuhkan adalah "os, object_detection, cv2, numpy, tensorflow"
+2. pastikan kamera utama yang digunakan memiliki kualitas yang baik
+3. buka file bernama "Object detection.py"
+4. tunggu beberapa saat hingga muncul jendela 
+5. bentuk gestur tangan yang membentuk bahasa isyarat hello, thanks, yes, no dan iloveyou
+6. jika ingin keluar program, tekan huruf "q" pada keyboard

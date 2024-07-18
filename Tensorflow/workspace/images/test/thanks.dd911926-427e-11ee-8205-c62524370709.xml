@@ -1,0 +1,26 @@
+<annotation>
+	<folder>collectedimages</folder>
+	<filename>thanks.dd911926-427e-11ee-8205-c62524370709.jpg</filename>
+	<path>/Users/audreynaila/Desktop/Sign Laguage/RealTimeObjectDetection/Tensorflow/workspace/images/collectedimages/thanks.dd911926-427e-11ee-8205-c62524370709.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1920</width>
+		<height>1080</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Good Bye</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>656</xmin>
+			<ymin>74</ymin>
+			<xmax>1348</xmax>
+			<ymax>959</ymax>
+		</bndbox>
+	</object>
+</annotation>
