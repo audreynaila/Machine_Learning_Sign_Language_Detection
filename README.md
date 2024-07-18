@@ -19,3 +19,9 @@ This project focuses on developing a machine learning model to detect and interp
 3. **Feature Extraction**: Key features from the hand gestures are extracted using computer vision techniques.
 4. **Classification**: The extracted features are fed into the trained neural network model to classify the gestures into corresponding sign language symbols.
 5. **Output Display**: The recognized sign language gestures are displayed as text on the user interface.
+
+##Applications
+
+- **Assistive Technology: Helping individuals with hearing or speech impairments communicate more effectively.
+- **Educational Tools: Providing an interactive learning tool for people interested in learning sign language.
+- **Integration with Other Technologies: Potential integration with virtual assistants and other AI-driven applications to enhance their accessibility.
