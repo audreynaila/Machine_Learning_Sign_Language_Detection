@@ -56,7 +56,7 @@ Make sure you have the following libraries installed:
    ```shell
    python Tensorflow/models/research/object_detection/model_main_tf2.py --model_dir=Tensorflow/workspace/models/my_ssd_mobnet --pipeline_config_path=Tensorflow/workspace/models/my_ssd_mobnet/pipeline.config --num_train_steps=10000
 
-### Detecting Sign Language
+## Detecting Sign Language
 
 1. **Required libraries**: `os`, `object_detection`, `cv2`, `numpy`, `tensorflow`
 2. Ensure the main camera used has good quality.
