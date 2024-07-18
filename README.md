@@ -55,3 +55,13 @@ Make sure you have the following libraries installed:
 
    ```shell
    python Tensorflow/models/research/object_detection/model_main_tf2.py --model_dir=Tensorflow/workspace/models/my_ssd_mobnet --pipeline_config_path=Tensorflow/workspace/models/my_ssd_mobnet/pipeline.config --num_train_steps=10000
+
+### Detecting Sign Language
+
+1. **Required libraries**: `os`, `object_detection`, `cv2`, `numpy`, `tensorflow`
+2. Ensure the main camera used has good quality.
+3. Open the file named `ObjectDetection.py`.
+4. Wait a moment for the window to appear.
+5. Form hand gestures representing `hello`, `thanks`, `yes`, `no`, and `iloveyou`.
+6. To exit the program, press the `q` key on the keyboard.
+
